@@ -6,7 +6,6 @@ header{
     height: 60px;
     background-color: #000000;
   }
-  
   .logo{
     text-decoration: none;
     font-size: 30px;
@@ -14,7 +13,6 @@ header{
     color: #FFF;
     font-weight: bold;
   }
-  
   .favoritos{
     text-decoration: none;
     cursor: pointer;
