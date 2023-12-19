@@ -3,32 +3,40 @@
 header{
   display: flex;
   align-items: center;
-  justify-content: space-around;
   width: 100%;
   height: 60px;
 }
 logo{
   margin-left: 80px;
+  position: relative;
   font-family: Inspiration;
   text-decoration: none;
   font-size: 30px;
-  cursor: pointer;
   color: var(--titulo-color);
   font-weight: bold;
+}
+logo:after{
+  content: ".";
+  -webkit-text-fill-color: #5D3FD3;
+  -webkit-text-stroke: 2px #5D3FD3;
 }
 .nav{
   margin: auto;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   gap: 2rem;
+  margin-left: 270px;
+}
+.nav .ul{
+  margin: auto;
+  gap: 30px;
   display: flex;
 }
-.nav a{
+.nav .ul a{
   color: var(--titulo-color);
-  border-bottom: solid 1px transparent;
+  font-weight: 600;
+  border-bottom: solid 1.3px transparent;
 }
-.nav a:hover{
-  transition: all 0.1s;
-  border-bottom: solid 1px var(--titulo-color);
+.nav .ul a:hover{
+  transition: 0.6s ease;
+  border-bottom: solid 1.3px var(--titulo-color);
 }

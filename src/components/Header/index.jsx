@@ -5,14 +5,16 @@ import Toggle from '../Toggle/index'
 function Header(){
   return(
     <header>
-      <logo>Lucas Almeida Dev.</logo>
+          <logo>Lucas Almeida Dev</logo>
         <div className='nav'>
-          <Link className="home" to="/">Home</Link>
-          <Link className="sobre" to="/sobre">Sobre</Link>
-          <Link className="tecnologias" to="/tecnologias">Tecnologias</Link>
-          <Link className="projetos" to="/projetos">Projetos</Link> 
+            <div className='ul'>
+              <Link className="home" to="/">Home</Link>
+              <Link className="sobre" to="/sobre">Sobre</Link>
+              <Link className="tecnologias" to="/tecnologias">Tecnologias</Link>
+              <Link className="projetos" to="/projetos">Projetos</Link> 
+            </div>
         </div>
-      <Toggle/>
+          <Toggle/>
     </header>
     
   )
