@@ -1,5 +1,6 @@
 import './home.css';
-
+import img from '../../assets/hero.png'
+import Download from 'remixicon-react/Download2LineIcon'
 function Home(){
     return(
         <div className='hero' id='home'>
@@ -7,11 +8,10 @@ function Home(){
                     <h1>Lucas Almeida</h1>
                     <h2>Fullstack Developer</h2>
                     <p>Eu sou um desenvolvedor Full Stack com conhecimento em React.Js, Node.Js, 
-                        Java & Python e com o maior foco criações criativas, rapidas, responsivas
-                        e de conforto para o úsuario. Apesar de relativamente novo na área dedico 
-                        todo o meu tempo para me manter atualizado.</p>   
-                    <a class="btn" href="Assets/github.png" download="github teste" >Download CV<i class="ri-download-line"></i></a>
+                        Java & Python e com o maior foco criações criativas, responsivas e de conforto para o usuário.</p>   
+                    <a class="btn" href="Assets/github.png" download="github teste">Download CV <Download/></a>
                 </div>
+                <img className='img' src={img}/>
         </div>
     );
 };  
