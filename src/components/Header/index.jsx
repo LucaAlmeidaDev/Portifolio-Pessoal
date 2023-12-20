@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Toggle from '../Toggle/index'
 function Header(){
   return(
@@ -8,15 +8,15 @@ function Header(){
           <logo>Lucas Almeida Dev</logo>
         <div className='nav'>
             <div className='ul'>
-              <Link className="home" to="/">Home</Link>
-              <Link className="sobre" to="/sobre">Sobre</Link>
-              <Link className="tecnologias" to="/tecnologias">Tecnologias</Link>
-              <Link className="projetos" to="/projetos">Projetos</Link> 
+              <NavLink className="home" exact to="/" activeClassName="active">Home</NavLink>
+              <NavLink className="sobre" to="/sobre" activeClassName="active">Sobre</NavLink>
+              <NavLink className="tecnologias" to="/tecnologias" activeClassName="active">Tecnologias</NavLink>
+              <NavLink className="projetos" to="/projetos" activeClassName="active">Portifolio</NavLink> 
             </div>
+              <Toggle/>
         </div>
-          <Toggle/>
     </header>
-    
+
   )
 }
 

@@ -1,13 +1,22 @@
 .container{
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .container img{
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
+    margin-left: 120px;
+    position: absolute;
+    border: solid 5px  var(--border-color);
+}
+.container .img-back{
+    margin-top: 60px;
     margin-left: 80px;
-    border: solid 2px #5d3fd3;
+    width: 450px;
+    height: 430px;
+    background-color: #e5e7eb;
+    border: solid 5px var(--border-color);
 }
 .sobre-text{
     margin-right: 80px;
@@ -16,8 +25,10 @@
 .sobre-text h1{
     color: var(--titulo-color);
     margin-bottom: 20px;
+    font-size: 30px;
 }
 .sobre-text p{
     color: var(--resumo-text);
     margin-bottom: 20px;
+    font-size: 15px;
 }

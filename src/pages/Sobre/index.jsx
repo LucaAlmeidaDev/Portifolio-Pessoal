@@ -6,6 +6,7 @@ function Sobre(){
         <div className='container'>
           <div>
             <img src={img}/>
+            <div className='img-back'></div>
           </div>
           <div className='sobre-text'>
             <h1>Sobre eu e meu trabalho:</h1>

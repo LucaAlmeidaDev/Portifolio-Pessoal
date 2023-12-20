@@ -1,8 +1,10 @@
 :root {
-  --background-color: #FFF;
-  --header-color: transparent;
+  --background-color: #f5fcff;
+  --header-color: #FFF;
   --resumo-text: #0A2942;
-  --titulo-color: #000;
+  --titulo-color: #282938;
+  --border-color: #f5fcff;
+  --box-shadow: #00000030;
 }
 *{
   font-family: sans-serif;
