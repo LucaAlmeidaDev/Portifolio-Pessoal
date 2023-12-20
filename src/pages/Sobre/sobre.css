@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.container img{
+    width: 500px;
+    height: 500px;
+    margin-left: 80px;
+    border: solid 2px #5d3fd3;
+}
+.sobre-text{
+    margin-right: 80px;
+    margin-left: 200px;
+}
+.sobre-text h1{
+    color: var(--titulo-color);
+    margin-bottom: 20px;
+}
+.sobre-text p{
+    color: var(--resumo-text);
+    margin-bottom: 20px;
+}

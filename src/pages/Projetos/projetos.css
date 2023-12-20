@@ -1,0 +1,19 @@
+.projetos{
+    display: grid;
+    grid-template-columns: repeat( 1,1fr);
+    gap: 30px;
+}
+.projeto{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 320px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.projeto-img{
+    width: 400px;
+    height: 320px;
+    background-color: aliceblue;
+}

@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 .hero-text h1{
-    margin-top: 165px;
+    margin-top: 200px;
     font-size: 40px;
     font-weight: 800;
 }
@@ -59,9 +59,9 @@
     border: solid 1px #5D3FD3;
 }
 .img{
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: auto;
-    margin-right: 80px;
+    margin-right: 150px;
     width: 450px;
     height: 450px;
 }

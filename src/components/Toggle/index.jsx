@@ -17,12 +17,14 @@ function Toggle() {
             document.documentElement.style.setProperty('--background-color', '#171717');
             document.documentElement.style.setProperty('--titulo-color', '#FFF');
             document.documentElement.style.setProperty('--resumo-text', '#A1A6AD');
+            document.documentElement.style.setProperty('--header-color', '#101010');
         } else {
             lightModeIcon.style.display = 'none';
             darkModeIcon.style.display = 'block';
             document.documentElement.style.setProperty('--background-color', '#FFF');
             document.documentElement.style.setProperty('--titulo-color', '#000');
             document.documentElement.style.setProperty('--resumo-text', '#0A2942');
+            document.documentElement.style.setProperty('--header-color', 'transparent');
         }
     }
 
