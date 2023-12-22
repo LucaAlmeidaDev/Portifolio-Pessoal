@@ -3,7 +3,7 @@ import img from '../../assets/img.jpg';
 
 function Sobre(){
     return(
-        <div className='container'>
+        <div className='sobre-container'>
           <div>
             <img src={img}/>
             <div className='img-back'></div>

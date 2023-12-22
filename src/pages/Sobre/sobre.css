@@ -1,16 +1,16 @@
-.container{
+.sobre-container{
     display: flex;
     flex-direction: row;
     margin-top: 70px;
 }
-.container img{
+.sobre-container img{
     width: 450px;
     height: 450px;
     margin-left: 120px;
     position: absolute;
     border: solid 5px  var(--border-color);
 }
-.container .img-back{
+.sobre-container .img-back{
     margin-top: 60px;
     margin-left: 80px;
     width: 450px;

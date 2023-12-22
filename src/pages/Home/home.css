@@ -8,6 +8,12 @@
         margin: auto;
     }
 }
+@media only screen and (max-width: 480px){
+    .hero .hero-text{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
 .hero{
     display: flex;
 }
