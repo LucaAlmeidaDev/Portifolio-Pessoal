@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import Header from './components/Header';
-
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Tecnologias from './pages/Tecnologias';
@@ -12,10 +11,54 @@ function RoutesApp(){
     <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path="/" element={ <Home/> } />
-        <Route path="/sobre" element={ <Sobre/> } />
-        <Route path="/tecnologias" element={ <Tecnologias/> } />
-        <Route path="/projetos" element={ <Projetos/> } />
+        <Route path="/" element={
+            <TransitionGroup>
+              <CSSTransition
+                key="home"
+                timeout={300}
+                classNames="fade"
+              > 
+                <Home />
+              </CSSTransition>
+            </TransitionGroup>
+          }
+        />
+        <Route path="/sobre" element={
+            <TransitionGroup>
+              <CSSTransition
+                key="sobre"
+                timeout={300}
+                classNames="fade"
+              >
+                <Sobre />
+              </CSSTransition>
+            </TransitionGroup>
+          }
+        />
+        <Route path="/tecnologias" element={
+            <TransitionGroup>
+              <CSSTransition
+                key="tecnologias"
+                timeout={300}
+                classNames="fade"
+              >
+                <Tecnologias />
+              </CSSTransition>
+            </TransitionGroup>
+          }
+        />
+        <Route path="/projetos" element={
+            <TransitionGroup>
+              <CSSTransition
+                key="projetos"
+                timeout={300}
+                classNames="fade"
+              >
+                <Projetos />
+              </CSSTransition>
+            </TransitionGroup>
+          }
+        />
       </Routes>
       
     </BrowserRouter>
