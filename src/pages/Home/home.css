@@ -18,7 +18,6 @@
     display: flex;
 }
 .hero-text{
-    margin-left: 80px;
     color: var(--titulo-color);
     display: flex;
     flex-direction: column;
@@ -69,7 +68,7 @@
 .img{
     margin-top: 90px;
     margin-left: auto;
-    margin-right: 150px;
+    margin-right: 120px;
     width: 360px;
     height: 360px;
 }

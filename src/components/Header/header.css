@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
 
-@media only screen and (max-width: 480px){
-  header .header-wrap{
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-} 
-@media only screen and (max-width: 800px){
-  header .header-wrap{
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 900px){
   header .nav .ul{
     display: none;
   }
@@ -20,6 +8,9 @@
 header{
   height: 60px;
   background-color: var(--header-color);
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
   box-shadow: var(--box-shadow) 0px 5px 20px; 
 }
 .header-wrap{

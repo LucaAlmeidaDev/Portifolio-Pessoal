@@ -1,10 +1,14 @@
 import './tecnologias.css';
+import Linkedin from 'remixicon-react/LinkedinBoxFillIcon'
+import Github from 'remixicon-react/GithubFillIcon'
+import Instagram from 'remixicon-react/InstagramFillIcon'
 
 function Tecnologias(){
     return(
            <div class="ling-banner" id="tecnologias">
             <div className='Ling-header'>
                 <h1>teste</h1>
+                <span class="blur"></span>
                 <h2>Por-que me</h2>
                 <p>Sempre me inovando e trabalhando com as melhores tecnologias e ferramentas da atualidade,
                      possuo conhecimento em para fazer o seu projeto ser o melhor do mercado.</p>
@@ -73,7 +77,13 @@ function Tecnologias(){
                             Java
                         </div>
                 </div>
-               
+                <div className='social'>
+                    <a target='_blank' href='https://www.linkedin.com/in/lucas-almeida-52b64522b'><Linkedin size={35}/></a>
+                    <a target='_blank' href='https://github.com/LucaAlmeidaDev'><Github size={35}/></a>
+                    <a target='_blank' href='#'><Instagram size={35}/></a>
+                    <p>Lucas Almeida 2024</p>
+                    <span class="blur"></span>
+                </div>
             </div>
     );
 };
