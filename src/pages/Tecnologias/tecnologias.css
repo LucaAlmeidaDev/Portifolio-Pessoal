@@ -1,13 +1,5 @@
-@media only screen and (max-width: 480px){
-    #tecnologias{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-} 
 .ling-banner{
     height: 460px;
-    margin-left: 80px;
-    margin-right: 80px;
 }
 .Ling-header h1{
     color: var(--titulo-color);

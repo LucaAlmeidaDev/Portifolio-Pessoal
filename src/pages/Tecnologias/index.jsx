@@ -5,7 +5,8 @@ import Instagram from 'remixicon-react/InstagramFillIcon'
 
 function Tecnologias(){
     return(
-           <div class="ling-banner" id="tecnologias">
+        <div className='container'>
+                 <div class="ling-banner" id="tecnologias">
             <div className='Ling-header'>
                 <h1>teste</h1>
                 <span class="blur"></span>
@@ -85,6 +86,8 @@ function Tecnologias(){
                     <span class="blur"></span>
                 </div>
             </div>
+        </div>
+          
     );
 };
 
