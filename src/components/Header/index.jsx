@@ -1,25 +1,24 @@
 import React from 'react';
-import './header.css';
 import { NavLink } from 'react-router-dom'
-import Toggle from '../Toggle/index'
 
 function Header(){
   return(
-    <div className='header-container'>
-      <header>
-        <div className='header-wrap'>
-          <logo>Lucas Almeida Dev</logo>
-            <div className='nav'>
-                <div className='ul'>
-                  <NavLink className="home" exact to="/" activeClassName="active">Home</NavLink>
-                  <NavLink className="sobre" to="/sobre" activeClassName="active">Sobre</NavLink>
-                  <NavLink className="tecnologias" to="/tecnologias" activeClassName="active">Tecnologias</NavLink>
-                  <NavLink className="projetos" to="/projetos" activeClassName="active">Portifolio</NavLink> 
-                </div>
-                  <Toggle/>
-            </div>
+    <div className='w-full h-14 select-none text-black dark:text-white'>
+      <header className='w-5/6 h-14 mx-auto'>
+        <div className='flex items-center h-14'>
+          <logo className='text-2xl'>Lucas Almeida Dev</logo>
+            <nav className='gap-2 hidden ml-auto md:flex'>
+                <ul className='m-auto gap-8 flex z-10'> 
+                  <NavLink exact to="/" className='border-2 border-transparent border-solid hover:border-b-green-500'>Home</NavLink>
+                  <NavLink to="/sobre" className='border-2 border-transparent border-solid hover:border-b-green-500'>Sobre</NavLink>
+                  <NavLink to="/tecnologies" className='border-2 border-transparent border-solid hover:border-b-green-500'>Tecnologias</NavLink>
+                  <NavLink to="/projects" className='border-2 border-transparent border-solid hover:border-b-green-500'>Projetos</NavLink>
+                </ul>
+       
+            </nav>
         </div>
       </header>
+     
     </div>
 
   )
