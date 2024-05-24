@@ -2,12 +2,13 @@ import Profile from 'remixicon-react/ProfileFillIcon'
 import Linkedin from 'remixicon-react/LinkedinBoxFillIcon'
 import Github from 'remixicon-react/GithubFillIcon'
 import Instagram from 'remixicon-react/InstagramFillIcon'
+import Perfil from '../../assets/Perfil.jpeg'
 
 function Sobre() {
     return (
         <div>
             <div className="w-5/6 m-auto flex flex-col md:flex-row dark:text-white">
-                <div className='mt-20'><img src='https://yt3.googleusercontent.com/fqVEkuSr9CdD3yi8gDkZYebDE_d5UIuvtb-bvuja_xPQSPu6GSS7ha4c2rcJPNQIvXe6FUqOJvU=s900-c-k-c0x00ffffff-no-rj'></img></div>
+                <div className='mt-20'><img src={Perfil}></img></div>
                 <div className='md:mt-14 md:ml-20'>
                     <h1 className='flex gap-1 my-6 font-bold text-xl'><Profile color='#22c55e' />Sobre.</h1>
                     <div className='gap-4 flex flex-col'>
