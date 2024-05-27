@@ -18,7 +18,11 @@ function Home(){
                 <p className='flex gap-2 mt-1'><Map className='text-green-500' size={20}/> Brasília, Brasil.</p>
                 <a className='select-none mt-6 flex border-2 border-solid h-12 w-56 items-center justify-center border-green-500 rounded-3xl gap-3 hover:border-transparent hover:bg-green-500 hover:text-white transition-all duration-300 hover:translate-y-1 hover:scale-110' href="Assets/github.png" download="github teste">Download CV <Download/></a>
             </div>
-            <img src={Herogif} className='flex w-96 h-96 mx-auto lg:-mt-20'></img>
+            <div className='flex flex-col text-center w-full'>
+                <img src={Herogif} className='flex w-96 h-96 mx-auto lg:-mt-20'></img>
+                <p className='text-xs'>Web illustrations by Storyset</p>
+            </div>
+
         </div>
       
       
