@@ -12,9 +12,13 @@ function Sobre() {
                 <div className='md:mt-14 md:ml-20'>
                     <h1 className='flex gap-1 my-6 font-bold text-xl'><Profile color='#22c55e' />Sobre.</h1>
                     <div className='gap-4 flex flex-col'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, reprehenderit commodi voluptates et inventore id vel? Quo quaerat voluptas, facere itaque rem dolore facilis similique. Eligendi architecto ipsam quasi deserunt.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, reprehenderit commodi voluptates et inventore id vel? Quo quaerat voluptas, facere itaque rem dolore facilis similique. Eligendi architecto ipsam quasi deserunt.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, reprehenderit commodi voluptates et inventore id vel? Quo quaerat voluptas, facere itaque rem dolore facilis similique. Eligendi architecto ipsam quasi deserunt.</p>
+                        <p>Sou um programador estudante de Análise e Desenvolvimento de Sistemas com experiência abrangente em várias linguagens de programação e tecnologias. Minha experiência abrange desde o desenvolvimento de front-end com React , Tailwind, JavaScript & Typescript, até a construção de aplicações robustas com NodeJs. Tenho proficiência em vários frameworks para desenvolvimento web, e estou comprometido em aprender e aplicar as melhores práticas do setor para criar produtos de alta qualidade. </p>
+                        <p>Com uma abordagem direcionada a metodologias ágeis, estou pronto para enfrentar desafios e contribuir para o sucesso de projetos e equipes.</p>
+                        <p>Habilidades Principais:
+                        <p>•Desenvolvimento web utilizando JavaScript, Tailwind, TypeScript & React.</p>
+                        <p>•Programação em Nodejs para criação de aplicações eficientes.</p>
+                        •Experiência em Db Firebase para gerenciamento de dados.</p>
+                      
                     </div>
 
                 </div>
