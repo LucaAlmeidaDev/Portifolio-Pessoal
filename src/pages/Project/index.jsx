@@ -7,7 +7,8 @@ import CliBanner from '../../assets/CLIBANNER.png'
 
 function Project() {
     return (
-        <div className="flex flex-col mt-10 gap-10">
+        <div>
+               <div className="flex flex-col mt-10 gap-10">
             <div className='m-auto w-5/6'>
                 <h1 className='flex mt-9 gap-1 text-2xl font-bold dark:text-white'><Folder color='#22c55e' size={30} />Projetos</h1>
             </div>
@@ -31,7 +32,7 @@ function Project() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col md:flex-row gap-10 md:gap-0'>
+            <div className='flex flex-col md:flex-row gap-10 md:gap-0 mb-96'>
                 <div className="select-none w-96 lg:w-4/12 bg-gray-50 border border-solid border-gray-400 dark:border-none flex flex-col m-auto shadow-xl ">
                     <div>
                         <img className='h-52 w-96 lg:w-4/12'/>
@@ -51,16 +52,10 @@ function Project() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col gap-2 items-center mt-32 mb-8 md:mt-16 dark:text-white'> 
-                <div className='flex'>
-                    <a className='transition-all hover:text-green-500 hover:translate-y-1 hover:scale-125' target='_blank' href='https://www.linkedin.com/in/lucas-almeida-52b64522b'><Linkedin size={35}/></a>
-                    <a className='transition-all hover:text-green-500 hover:translate-y-1 hover:scale-125' target='_blank' href='https://github.com/LucaAlmeidaDev'><Github size={35}/></a>
-                    <a className='transition-all hover:text-green-500 hover:translate-y-1 hover:scale-125' target='_blank' href='https://www.instagram.com/lucasalmeida86355/'><Instagram size={35}/></a>
-                </div>
-                <p className='select-none'>Lucas Almeida ©2024</p>
-            </div>
         </div>
+        </div>
+     
     )
 }
 
-export default Project;
+export default Project; 

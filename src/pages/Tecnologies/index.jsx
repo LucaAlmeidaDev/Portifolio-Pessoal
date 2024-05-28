@@ -73,14 +73,11 @@ function Tecnologies() {
 
             </div>
 
-
-
-
-            <div className='flex flex-col gap-2 items-center mt-32 mb-8 md:mt-16'>
+            <div  className='dark:text-white text-black flex flex-col gap-2 items-center md:mt-16 mt-20 md:absolute bottom-0 mb-6 left-0 right-0 '> 
                 <div className='flex'>
-                    <a className='transition-all hover:text-green-500 hover:translate-y-1 hover:scale-125' target='_blank' href='https://www.linkedin.com/in/lucas-almeida-52b64522b'><Linkedin size={35} /></a>
-                    <a className='transition-all hover:text-green-500 hover:translate-y-1 hover:scale-125' target='_blank' href='https://github.com/LucaAlmeidaDev'><Github size={35} /></a>
-                    <a className='transition-all hover:text-green-500 hover:translate-y-1 hover:scale-125' target='_blank' href='https://www.instagram.com/lucasalmeida86355/'><Instagram size={35} /></a>
+                    <a className='transition-all hover:text-green-500 hover:translate-y-1 hover:scale-125' target='_blank' href='https://www.linkedin.com/in/lucas-almeida-52b64522b'><Linkedin size={35}/></a>
+                    <a className='transition-all hover:text-green-500 hover:translate-y-1 hover:scale-125' target='_blank' href='https://github.com/LucaAlmeidaDev'><Github size={35}/></a>
+                    <a className='transition-all hover:text-green-500 hover:translate-y-1 hover:scale-125' target='_blank' href='https://www.instagram.com/lucasalmeida86355/'><Instagram size={35}/></a>
                 </div>
                 <p className='select-none'>Lucas Almeida ©2024</p>
             </div>
