@@ -1,5 +1,5 @@
 import Download from 'remixicon-react/DownloadFillIcon'
-import Curriculum from '../../assets/Currículo.pdf  '
+import Curriculum from '../../assets/Curriculo.pdf'
 import Linkedin from 'remixicon-react/LinkedinBoxFillIcon'
 import Github from 'remixicon-react/GithubFillIcon'
 import Map from 'remixicon-react/MapPin2LineIcon'
